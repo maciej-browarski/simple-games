@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(48, 6, 48);
+    color: white;
+    font-family: Arial;
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: .6em 0 .2em;
+}
+
+a {
+    color: rgb(238, 130, 238);
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(229, 61, 229);
+    border: 1px solid rgb(229, 61, 229);
+    border-radius: 6px;
+    color: rgb(30, 4, 30);
+    cursor: pointer;
+    font-size: 1em;
+    padding: 6px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: rgb(236, 113, 236);
+}
+
+footer {
+    margin: 2em 2em 3em;
+}
+
+#result,
+#btns {
+    margin: auto;
+    width: 300px;
+}
+
+#result ul {
+    margin-top: 1.6em;
+}
+
+#result li {
+    background-color: rgb(255, 215, 0);
+    border: 1px solid rgb(255, 215, 0);
+    border-radius: 18px;
+    cursor: default;
+    color: rgb(30, 4, 30);
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    line-height: 2.3;
+    list-style-type: none;
+    margin-right: 5px;
+    vertical-align: baseline;
+}
+
+#btns {
+    padding: 1.6em 0;
+}
+
+#stop-btn,
+#reset-btn {
+    display: none;
+}
+
+#coupon {
+    padding: 0 0 2.3em;
+}
+
+#coupon-tab {
+    margin: auto;
+    width: 300px;
+}
+
+#coupon-tab,
+#coupon-tab th,
+#coupon-tab tr,
+#coupon-tab td {
+    border: 1px solid rgb(245, 182, 245);
+    border-collapse: collapse;
+}
+
+#coupon-tab th {
+    padding: 10px;
+}
+
+#coupon-tab td {
+    padding: 5px;
+}
+
+#coupon-tab th {
+    background-color: rgb(245, 182, 245);
+    color: rgb(30, 4, 30);
+    text-align: justify;
+}
+
+#number-of-matches {
+    text-align: right !important;
+}
+
+#game-description {
+    line-height: 1.6em;
+    margin: 0 auto;
+    width: 360px;
+}
+
+#game-description h3 {
+    margin-top: .6em;
+    margin-bottom: .3em;
+    text-align: left;
+}
+
+#game-description ol {
+    margin-left: 1.2em;
+
+}
+
+#game-description li {
+    text-align: left;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    line-height: 1.8;
+    width: 30px;
+}
+
+.btn:hover {
+    background-color: rgb(82, 11, 82) !important;
+}
